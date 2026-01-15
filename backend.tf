@@ -1,3 +1,4 @@
+/*
 terraform {
   backend "s3" {
     bucket = "terraform-github-actions"
@@ -5,3 +6,4 @@ terraform {
     region = "us-east-1"
   }
 }
+*/
