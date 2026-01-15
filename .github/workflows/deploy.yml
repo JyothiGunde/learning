@@ -27,8 +27,8 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Terraform plan
+      - name: Terraform Plan
         run: terraform plan
 
-      - name: Terraform approve
+      - name: Terraform Apply
         run: terraform apply -auto-approve
