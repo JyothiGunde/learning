@@ -25,10 +25,10 @@ jobs:
           aws-region: "us-east-1"
 
       - name: Terraform Init
-        uses: terraform init
+        run: terraform init
 
       - name: Terraform Plan
-        uses: terraform plan
+        run: terraform plan
 
       - name: Terraform Destroy
-        uses: terraform destroy -auto=approve
+        run: terraform destroy -auto-approve
